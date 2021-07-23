@@ -1,0 +1,2 @@
+# UnitTestTraining
+UnitTestの練習用サンプルファイルがあるリポジトリーです。
