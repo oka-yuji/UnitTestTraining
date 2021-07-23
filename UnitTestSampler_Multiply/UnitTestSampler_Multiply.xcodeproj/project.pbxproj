@@ -13,6 +13,9 @@
 		2882CADB26AA8D12001EA0A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2882CADA26AA8D12001EA0A0 /* Preview Assets.xcassets */; };
 		2882CAE626AA8D12001EA0A0 /* UnitTestSampler_MultiplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CAE526AA8D12001EA0A0 /* UnitTestSampler_MultiplyTests.swift */; };
 		2882CAF126AA8D12001EA0A0 /* UnitTestSampler_MultiplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CAF026AA8D12001EA0A0 /* UnitTestSampler_MultiplyUITests.swift */; };
+		2882CAFF26AA91D8001EA0A0 /* MultiplyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CAFE26AA91D8001EA0A0 /* MultiplyModel.swift */; };
+		2882CB0126AA91E7001EA0A0 /* MultiplyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CB0026AA91E7001EA0A0 /* MultiplyViewModel.swift */; };
+		2882CB0326AA91FB001EA0A0 /* MultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CB0226AA91FB001EA0A0 /* MultiplyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		2882CAEC26AA8D12001EA0A0 /* UnitTestSampler_MultiplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSampler_MultiplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882CAF026AA8D12001EA0A0 /* UnitTestSampler_MultiplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampler_MultiplyUITests.swift; sourceTree = "<group>"; };
 		2882CAF226AA8D12001EA0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2882CAFE26AA91D8001EA0A0 /* MultiplyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyModel.swift; sourceTree = "<group>"; };
+		2882CB0026AA91E7001EA0A0 /* MultiplyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyViewModel.swift; sourceTree = "<group>"; };
+		2882CB0226AA91FB001EA0A0 /* MultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				2882CAD326AA8D11001EA0A0 /* UnitTestSampler_MultiplyApp.swift */,
 				2882CAD526AA8D11001EA0A0 /* ContentView.swift */,
+				2882CAFE26AA91D8001EA0A0 /* MultiplyModel.swift */,
+				2882CB0026AA91E7001EA0A0 /* MultiplyViewModel.swift */,
+				2882CB0226AA91FB001EA0A0 /* MultiplyView.swift */,
 				2882CAD726AA8D12001EA0A0 /* Assets.xcassets */,
 				2882CADC26AA8D12001EA0A0 /* Info.plist */,
 				2882CAD926AA8D12001EA0A0 /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2882CAFF26AA91D8001EA0A0 /* MultiplyModel.swift in Sources */,
 				2882CAD626AA8D11001EA0A0 /* ContentView.swift in Sources */,
+				2882CB0326AA91FB001EA0A0 /* MultiplyView.swift in Sources */,
+				2882CB0126AA91E7001EA0A0 /* MultiplyViewModel.swift in Sources */,
 				2882CAD426AA8D11001EA0A0 /* UnitTestSampler_MultiplyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
