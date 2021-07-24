@@ -7,15 +7,15 @@
 
 import Foundation
 
-protocol ActionMultiply {
+protocol MultiplyInterface {
     func multiply(num1: Int, num2: Int) -> Int
 }
 
-class CalculateModel: ActionMultiply {
+class MultiplyModel: MultiplyInterface {
     private var num1: Int = 0
     private var num2: Int = 0
     /// num1とnum2を乗算した値を返す
-    func multiply(num1: Int, num2: Int) -> Int {
+    func multiply(num1: Int , num2: Int) -> Int {
         let multiplication = num1 * num2
         return multiplication
     }

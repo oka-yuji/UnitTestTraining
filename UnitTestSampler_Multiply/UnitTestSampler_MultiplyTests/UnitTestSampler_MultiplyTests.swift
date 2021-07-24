@@ -9,25 +9,21 @@ import XCTest
 @testable import UnitTestSampler_Multiply
 
 class UnitTestSampler_MultiplyTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    let multiplyModel = MultiplyModel()
+    var multiplyViewModel: MultiplyViewModel!
+    
+    func test_num1とnum2の数字が掛け算されていれば成功() {
+        let num1 = 10
+        let num2 = 5
+        let result = multiplyModel.multiply(num1: num1, num2: num2)
+        XCTAssertEqual(50, result)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test() {
+        multiplyViewModel.Value1 = ""
+        multiplyViewModel.Value2 = ""
+        multiplyViewModel.multiply()
+        let result = multiplyViewModel.multiplyValue
+        XCTAssertEqual("50", result)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
